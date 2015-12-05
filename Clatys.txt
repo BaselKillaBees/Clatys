@@ -1,0 +1,20 @@
+#include <OnionLibrary.h>
+
+Onion* onionSetup;
+
+int led0 = 13;
+int btn0 = 2;
+int val = 0;     // variable to store the read value
+
+void setup() {
+  // put your setup code here, to run once:
+  onionSetup = new Onion;
+  pinMode(btn0, INPUT);
+  pinMode(led0, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  val = digitalRead(btn0);
+  digitalWrite(led0, val);
+}
