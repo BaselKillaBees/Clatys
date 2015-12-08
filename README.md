@@ -11,7 +11,7 @@ This project was made thanks for GDGBasel. We did it a day. What an amazing expe
 
 - Mimoun
 - Manuel
-- Julien
+- Thibaut
 - François
 
 ###Hardware
